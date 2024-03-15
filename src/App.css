@@ -22,3 +22,10 @@
 	background-size: cover;
 	background-origin: border-box;
 }
+.footer {
+	background-image: url("./assets/footer.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-origin: border-box;
+}

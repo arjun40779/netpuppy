@@ -4,6 +4,7 @@ import NavigationPage from "./components/navigation/NavigationPage";
 import HomePage from "./pages/HomePage";
 import logo from "./assets/logo.jpg";
 import { GiHamburgerMenu } from "react-icons/gi";
+import Footer from "./components/Footer/Footer";
 const btnColor = {
 	backgroundColor: "rgb(96, 186, 177)",
 };
@@ -32,6 +33,7 @@ function App() {
 			) : (
 				<>
 					<HomePage />
+					<Footer />
 				</>
 			)}
 		</div>

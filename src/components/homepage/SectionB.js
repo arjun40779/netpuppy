@@ -4,8 +4,8 @@ import img2 from "../../assets/secB2.jpg";
 import swimming from "../../assets/swimming.svg";
 import taekwando from "../../assets/taekwando.jpg";
 import horseRidding from "../../assets/horseRiding.jpg";
-import rightArrow from "../../assets/rightArrow.svg";
 import seeMore from "../../assets/see more.svg";
+import Button from "../Button";
 const SectionB = () => {
 	return (
 		<>
@@ -55,10 +55,7 @@ const SectionB = () => {
 					<div>
 						<img src={swimming} alt="swimming" />
 					</div>
-					<div className="p-8 border-2 border-yellow-500 flex gap-4 items-center cursor-pointer px-4 rounded-xl py-1">
-						<span>SEE ALL ACTIVITIES</span>
-						<img src={rightArrow} alt="rightArrow" />
-					</div>
+					<Button label={"See All Activities"} />
 				</div>
 				<div className="w-[250px] flex h-full self-center items-center align-middle ">
 					<img src={seeMore} alt="seeMore" />

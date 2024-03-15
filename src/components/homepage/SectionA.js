@@ -7,7 +7,6 @@ import img5 from "../../assets/img5.svg";
 import img6 from "../../assets/img6.svg";
 import img7 from "../../assets/img7.svg";
 import img8 from "../../assets/img8.svg";
-import bgSecA from "../../assets/bgSecA.svg";
 import downArrow from "../../assets/downArrow.svg";
 
 const SectionA = () => {
